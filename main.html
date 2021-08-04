@@ -1,17 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<header class="Title"><h1>Rein-amines</h1></header>
-<nav><li>Series</li>
-<li>Noticias</li>
-<Li>Juegos</Li></nav>
+
 <body>
-    <div><h1 type="heavy">Iridiam animes</h1></div>
+    <header>
+        <div id="header_container">
+            <div class="navigation">
+                <div class="home">
+                    <h1 id="logo-beta"><img src="imagen/logo-beta.png" alt=""><a href="Main"></a></h1>
+                    <button><svg class="open-icon" viewBox="0 0 48 48 ">
+                            <title>Main menu</title>
+                            <use> <img src="imagen/menu.png" alt="logo-beta"></use>
+                        </svg>
+
+                    </button>
+                </div>
+                <nav id="menu_bar">
+                    <ul>
+                        <li class="stateselected"><a href="">Noticias</a></li>
+                        <li class="stateselected"><a href="">series</a></li>
+                        <li class="stateselected"><a href="">Juegos</a></li>
+                    </ul>
+                </nav>
+                <nav id="menu_userpanel">
+                    <ul>
+                        <li class="user_panel_item queue"><a href="">
+                                <div class="icon_container"><svg viewBox="0 0 48 48">
+                                        <use xlink:href="/i/svg/header.svg#cr_bookmark_header"></use>
+                                    </svg></div>
+                                    <div class="caption">Mi lista</div>
+                            </a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
 </body>
+
 
 </html>
